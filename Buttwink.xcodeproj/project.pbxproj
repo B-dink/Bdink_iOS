@@ -73,6 +73,10 @@
 		1DE7F1B92D2FF0BF00531A95 /* ItemBoxMainCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7F1B82D2FF0BF00531A95 /* ItemBoxMainCVC.swift */; };
 		1DE7F1BE2D2FF18F00531A95 /* UnderlineSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7F1BD2D2FF18F00531A95 /* UnderlineSegmentedControl.swift */; };
 		1DFB78F32D0085E600534317 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 1DFB78F22D0085E600534317 /* Moya */; };
+		6D1420002D6ED3A100C943CD /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D141FFF2D6ED39E00C943CD /* DayCell.swift */; };
+		6D1420022D6ED3C800C943CD /* MonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1420012D6ED3C400C943CD /* MonthCell.swift */; };
+		6D1420042D6ED3F000C943CD /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1420032D6ED3E700C943CD /* NewsViewController.swift */; };
+		6D1420062D6ED3F900C943CD /* CalendarFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1420052D6ED3F300C943CD /* CalendarFlowLayout.swift */; };
 		78956D072D185CBD0074D80B /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 78956D062D185CBD0074D80B /* Then */; };
 		BF88F4572D3FA32F00B862F4 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = BF88F4562D3FA32F00B862F4 /* YouTubePlayerKit */; };
 		BF88F4592D3FA42600B862F4 /* SingleVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF88F4582D3FA42600B862F4 /* SingleVideoViewController.swift */; };
@@ -174,6 +178,10 @@
 		1DE1355C2CFB1FC600D9F469 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1DE7F1B82D2FF0BF00531A95 /* ItemBoxMainCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBoxMainCVC.swift; sourceTree = "<group>"; };
 		1DE7F1BD2D2FF18F00531A95 /* UnderlineSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlineSegmentedControl.swift; sourceTree = "<group>"; };
+		6D141FFF2D6ED39E00C943CD /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		6D1420012D6ED3C400C943CD /* MonthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCell.swift; sourceTree = "<group>"; };
+		6D1420032D6ED3E700C943CD /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		6D1420052D6ED3F300C943CD /* CalendarFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFlowLayout.swift; sourceTree = "<group>"; };
 		BF88F4582D3FA42600B862F4 /* SingleVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleVideoViewController.swift; sourceTree = "<group>"; };
 		BF88F45A2D3FA4AF00B862F4 /* SingleVideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleVideoViewModel.swift; sourceTree = "<group>"; };
 		BF88F45D2D3FA4E400B862F4 /* SingleVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleVideoCell.swift; sourceTree = "<group>"; };
@@ -455,6 +463,7 @@
 		1D999D5D2CE0DB6D004A4029 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				6D141FFE2D6ED36700C943CD /* News */,
 				1DE7F1B72D2FF0B000531A95 /* ReuseCell */,
 				1D2E8BCC2D2FE204009F339D /* Bookmark */,
 				1D7BB1EF2CF5C5ED0023AC1C /* ShortsFeed */,
@@ -591,6 +600,17 @@
 				1D8067C92D00776C002456FD /* NetworkResult.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		6D141FFE2D6ED36700C943CD /* News */ = {
+			isa = PBXGroup;
+			children = (
+				6D141FFF2D6ED39E00C943CD /* DayCell.swift */,
+				6D1420012D6ED3C400C943CD /* MonthCell.swift */,
+				6D1420032D6ED3E700C943CD /* NewsViewController.swift */,
+				6D1420052D6ED3F300C943CD /* CalendarFlowLayout.swift */,
+			);
+			path = News;
 			sourceTree = "<group>";
 		};
 		BF88F45C2D3FA4DA00B862F4 /* SingleVideo */ = {
@@ -760,13 +780,16 @@
 				1D999D8B2CE115B8004A4029 /* UITextField+.swift in Sources */,
 				BF88F4642D3FF82300B862F4 /* Entity_YoutubeData.swift in Sources */,
 				1DDA3FA32CF384440001EA85 /* TabBarItem.swift in Sources */,
+				6D1420022D6ED3C800C943CD /* MonthCell.swift in Sources */,
 				1D2E8BD92D2FE2AE009F339D /* BookmarkNewsVC.swift in Sources */,
 				BF9132322D5A19190068C9F1 /* CommonRxDataSource.swift in Sources */,
 				1D999D832CE1148F004A4029 /* UIViewController+.swift in Sources */,
 				1D24D6032CF7F46C006157FD /* ThumbnailCell.swift in Sources */,
 				1D0D98AC2D07683800ACB167 /* ViewModelBindableType.swift in Sources */,
 				BF88F4682D42323500B862F4 /* Mappers_YoutubeData.swift in Sources */,
+				6D1420062D6ED3F900C943CD /* CalendarFlowLayout.swift in Sources */,
 				BF88F4662D4231F800B862F4 /* DTO_YoutubeData.swift in Sources */,
+				6D1420042D6ED3F000C943CD /* NewsViewController.swift in Sources */,
 				1D5D33982D0D8E3700559069 /* ErrorCode.swift in Sources */,
 				1D0D98B02D0846F100ACB167 /* Thumbnail.swift in Sources */,
 				1D2E8BE52D2FE800009F339D /* BookmarkCell.swift in Sources */,
@@ -774,6 +797,7 @@
 				1D999D812CE11466004A4029 /* URL+.swift in Sources */,
 				1D0D98A82D07683800ACB167 /* BaseCollectionViewCell.swift in Sources */,
 				BF88F4722D425DFD00B862F4 /* ShortsMapper.swift in Sources */,
+				6D1420002D6ED3A100C943CD /* DayCell.swift in Sources */,
 				1D7BB1F32CF5C6020023AC1C /* MypageViewModel.swift in Sources */,
 				1D24D6012CF7F3B6006157FD /* TagCell.swift in Sources */,
 				1D999D7D2CE113A7004A4029 /* Date+.swift in Sources */,
