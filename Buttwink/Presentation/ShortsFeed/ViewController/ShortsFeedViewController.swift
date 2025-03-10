@@ -28,9 +28,9 @@ final class ShortsFeedViewController: UIViewController, UICollectionViewDelegate
     ]
     let tagNames: [String] = ["NPC", "WNGP", "NABBA"]
     let thirdImages: [UIImage] = [
-        UIImage.Icon.alarm_default!,
-        UIImage.Icon.feed!,
-        UIImage.Sample.sample1!
+        UIImage.Icon.complete!,
+        UIImage.Icon.complete!,
+        UIImage.Icon.complete!
     ]
     
     var selectedTag: String? = nil
