@@ -35,7 +35,7 @@ final class ThumbnailCell: BaseCollectionViewCell<Any> {
         let view = UIImageView()
         view.backgroundColor = .white
         view.layer.cornerRadius = 8
-        view.image = .Sample.sample1
+        view.image = UIImage.Icon.complete
         view.contentMode = .scaleAspectFill
         view.clipsToBounds = true
         return view

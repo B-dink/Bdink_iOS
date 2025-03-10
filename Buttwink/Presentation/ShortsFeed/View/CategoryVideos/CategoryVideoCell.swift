@@ -28,7 +28,7 @@ final class CategoryVideoCell: BaseCollectionViewCell<Any> {
         let view = UIImageView()
         view.backgroundColor = .green
         view.layer.cornerRadius = 11
-        view.image = .Sample.sample1
+        view.image = UIImage.Icon.info
         view.contentMode = .scaleAspectFill
         view.clipsToBounds = true
         return view

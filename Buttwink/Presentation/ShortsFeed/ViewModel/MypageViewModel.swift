@@ -94,7 +94,7 @@ final class ShortsFeedViewModel: ShortsFeedViewModelType, ShortsFeedViewModelInp
             contentDetails: ContentDetails(duration: "PT4M30S", dimension: "2d", definition: "hd", caption: "false", licensedContent: true, contentRating: ContentRating(), projection: "rectangular"),
             statistics: Statistics(viewCount: "1000", likeCount: "100", dislikeCount: nil, favoriteCount: nil, commentCount: "10")
         )]),
-        .Third([UIImage.Icon.alarm_default!, UIImage.Icon.feed!, UIImage.Sample.sample1!])
+        .Third([UIImage.Icon.complete!, UIImage.Icon.complete!, UIImage.Icon.complete!])
     ]
     
     

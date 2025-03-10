@@ -22,7 +22,7 @@ final class ThirdCell: BaseCollectionViewCell<Any> {
     
     private let imageView: UIImageView = {
         let view = UIImageView()
-        view.image = .Sample.sample1
+        view.image = UIImage.Icon.complete
         view.backgroundColor = .white
         view.sizeToFit()
         return view
