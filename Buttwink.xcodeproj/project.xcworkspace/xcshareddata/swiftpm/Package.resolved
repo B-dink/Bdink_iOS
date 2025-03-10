@@ -1,5 +1,5 @@
 {
-  "originHash" : "c2db10e4ae31e254b3fd3491d55a9ffdfa09d925a713e4874f79efe93e1641bd",
+  "originHash" : "4b36f62c019f0a70013457fa0186ac2ee8f7c157ef3daf042c37b6bd64e54885",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -16,7 +16,25 @@
       "location" : "https://github.com/GodSamble/ButtwinkDesignSystem",
       "state" : {
         "branch" : "main",
-        "revision" : "5106681dea140eb812d0209cbf92f7ac7a96a434"
+        "revision" : "d0e68983108bef3e769d76b9b451e18c3109520e"
+      }
+    },
+    {
+      "identity" : "kakao-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kakao/kakao-ios-sdk.git",
+      "state" : {
+        "revision" : "ab4309c1950550add307046ad1e08024c7514603",
+        "version" : "2.23.0"
+      }
+    },
+    {
+      "identity" : "kakao-ios-sdk-rx",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kakao/kakao-ios-sdk-rx",
+      "state" : {
+        "revision" : "fa5ce05d610c4b026df8d42e891a32f31a239d58",
+        "version" : "2.23.0"
       }
     },
     {
@@ -24,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/onevcat/Kingfisher.git",
       "state" : {
-        "revision" : "e6749919f9761d573d37a7d7e78b1b854c191d7f",
-        "version" : "8.1.3"
+        "revision" : "b450a3b30e0767277a6eed7e02dbdebd7d173da0",
+        "version" : "8.3.0"
       }
     },
     {
@@ -33,8 +51,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/airbnb/lottie-ios.git",
       "state" : {
-        "revision" : "fe4c6fe3a0aa66cdeb51d549623c82ca9704b9a5",
-        "version" : "4.5.0"
+        "revision" : "047aa81b77adcbf583a966dfef620d17650cc656",
+        "version" : "4.5.1"
       }
     },
     {
@@ -47,12 +65,30 @@
       }
     },
     {
+      "identity" : "ohhttpstubs",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AliSoftware/OHHTTPStubs.git",
+      "state" : {
+        "revision" : "12f19662426d0434d6c330c6974d53e2eb10ecd9",
+        "version" : "9.1.0"
+      }
+    },
+    {
       "identity" : "reactiveswift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ReactiveCocoa/ReactiveSwift.git",
       "state" : {
         "revision" : "c43bae3dac73fdd3cb906bd5a1914686ca71ed3c",
         "version" : "6.7.0"
+      }
+    },
+    {
+      "identity" : "rxalamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RxSwiftCommunity/RxAlamofire.git",
+      "state" : {
+        "revision" : "9535b58695b91fb67f56d58d6fd0c76462d7743a",
+        "version" : "6.1.2"
       }
     },
     {
@@ -69,8 +105,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ReactiveX/RxSwift.git",
       "state" : {
-        "revision" : "c7c7d2cf50a3211fe2843f76869c698e4e417930",
-        "version" : "6.8.0"
+        "revision" : "5dd1907d64f0d36f158f61a466bab75067224893",
+        "version" : "6.9.0"
       }
     },
     {
@@ -78,8 +114,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/getsentry/sentry-cocoa",
       "state" : {
-        "revision" : "c1404acfa3a71e42aa789c6d5564da59d4377569",
-        "version" : "8.42.1"
+        "revision" : "e0fa062817b277fd9ab597b54b8e2f92dc65b009",
+        "version" : "8.46.0"
       }
     },
     {

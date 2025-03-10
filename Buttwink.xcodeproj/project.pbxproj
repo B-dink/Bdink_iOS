@@ -78,7 +78,15 @@
 		6D1420042D6ED3F000C943CD /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1420032D6ED3E700C943CD /* NewsViewController.swift */; };
 		6D1420062D6ED3F900C943CD /* CalendarFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1420052D6ED3F300C943CD /* CalendarFlowLayout.swift */; };
 		6D14200D2D6ED52300C943CD /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14200C2D6ED51400C943CD /* MyPageViewController.swift */; };
+		6D3BA07B2D7E84F0009DC52E /* ViewControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BA07A2D7E84EC009DC52E /* ViewControllable.swift */; };
 		6D5350142D7A772100DBC24B /* LectureListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5350132D7A771D00DBC24B /* LectureListViewController.swift */; };
+		6D5350232D7A7F1400DBC24B /* SocialLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5350222D7A7F0B00DBC24B /* SocialLoginViewController.swift */; };
+		6D5350252D7A866300DBC24B /* ButtwinkTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5350242D7A865B00DBC24B /* ButtwinkTextField.swift */; };
+		6D5350272D7A875D00DBC24B /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5350262D7A875D00DBC24B /* Image.xcassets */; };
+		6D53502A2D7AAA3800DBC24B /* RxKakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 6D5350292D7AAA3800DBC24B /* RxKakaoSDK */; };
+		6D53502C2D7AAA3800DBC24B /* RxKakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6D53502B2D7AAA3800DBC24B /* RxKakaoSDKAuth */; };
+		6D53502E2D7AAA3800DBC24B /* RxKakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 6D53502D2D7AAA3800DBC24B /* RxKakaoSDKCommon */; };
+		6D5350302D7AAA3800DBC24B /* RxKakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 6D53502F2D7AAA3800DBC24B /* RxKakaoSDKUser */; };
 		6D9C2D072D76BC2D00713AEA /* MyPageInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9C2D062D76BC2600713AEA /* MyPageInfoCell.swift */; };
 		6D9C2D092D76BC6D00713AEA /* MyPageLectureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9C2D082D76BC6800713AEA /* MyPageLectureCell.swift */; };
 		6D9C2D0B2D76BCB000713AEA /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9C2D0A2D76BCAB00713AEA /* SectionHeaderView.swift */; };
@@ -192,7 +200,11 @@
 		6D1420032D6ED3E700C943CD /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		6D1420052D6ED3F300C943CD /* CalendarFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFlowLayout.swift; sourceTree = "<group>"; };
 		6D14200C2D6ED51400C943CD /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		6D3BA07A2D7E84EC009DC52E /* ViewControllable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllable.swift; sourceTree = "<group>"; };
 		6D5350132D7A771D00DBC24B /* LectureListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureListViewController.swift; sourceTree = "<group>"; };
+		6D5350222D7A7F0B00DBC24B /* SocialLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginViewController.swift; sourceTree = "<group>"; };
+		6D5350242D7A865B00DBC24B /* ButtwinkTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtwinkTextField.swift; sourceTree = "<group>"; };
+		6D5350262D7A875D00DBC24B /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		6D9C2D062D76BC2600713AEA /* MyPageInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageInfoCell.swift; sourceTree = "<group>"; };
 		6D9C2D082D76BC6800713AEA /* MyPageLectureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageLectureCell.swift; sourceTree = "<group>"; };
 		6D9C2D0A2D76BCAB00713AEA /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
@@ -233,15 +245,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D7BB1ED2CF475280023AC1C /* DesignSystem in Frameworks */,
+				6D5350302D7AAA3800DBC24B /* RxKakaoSDKUser in Frameworks */,
 				1DB5B7782D0AFEBA00E80768 /* SentrySwiftUI in Frameworks */,
 				BF88F4572D3FA32F00B862F4 /* YouTubePlayerKit in Frameworks */,
+				6D53502C2D7AAA3800DBC24B /* RxKakaoSDKAuth in Frameworks */,
 				1DE135572CF882CB00D9F469 /* Differentiator in Frameworks */,
 				1D7BB1E22CF472C00023AC1C /* Kingfisher in Frameworks */,
 				1DE135592CF882CB00D9F469 /* RxDataSources in Frameworks */,
 				1D7BB2002CF5D7AC0023AC1C /* RxCocoa in Frameworks */,
+				6D53502A2D7AAA3800DBC24B /* RxKakaoSDK in Frameworks */,
 				1DB5B7742D0AFEBA00E80768 /* Sentry in Frameworks */,
 				78956D072D185CBD0074D80B /* Then in Frameworks */,
 				1DFB78F32D0085E600534317 /* Moya in Frameworks */,
+				6D53502E2D7AAA3800DBC24B /* RxKakaoSDKCommon in Frameworks */,
 				1DB5B76F2D0AFABB00E80768 /* RxMoya in Frameworks */,
 				1D7BB1E52CF472CE0023AC1C /* SnapKit in Frameworks */,
 				1D0D98B32D09ABFA00ACB167 /* Swinject in Frameworks */,
@@ -481,6 +497,7 @@
 		1D999D5D2CE0DB6D004A4029 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				6D5350212D7A7F0400DBC24B /* Login */,
 				6D5350122D7A771600DBC24B /* MyPageDetail */,
 				6D14200B2D6ED49E00C943CD /* MyPage */,
 				6D141FFE2D6ED36700C943CD /* News */,
@@ -704,6 +721,17 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		6D5350212D7A7F0400DBC24B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6D3BA07A2D7E84EC009DC52E /* ViewControllable.swift */,
+				6D5350242D7A865B00DBC24B /* ButtwinkTextField.swift */,
+				6D5350222D7A7F0B00DBC24B /* SocialLoginViewController.swift */,
+				6D5350262D7A875D00DBC24B /* Image.xcassets */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		BF88F45C2D3FA4DA00B862F4 /* SingleVideo */ = {
 			isa = PBXGroup;
 			children = (
@@ -766,6 +794,10 @@
 				1DB5B7772D0AFEBA00E80768 /* SentrySwiftUI */,
 				78956D062D185CBD0074D80B /* Then */,
 				BF88F4562D3FA32F00B862F4 /* YouTubePlayerKit */,
+				6D5350292D7AAA3800DBC24B /* RxKakaoSDK */,
+				6D53502B2D7AAA3800DBC24B /* RxKakaoSDKAuth */,
+				6D53502D2D7AAA3800DBC24B /* RxKakaoSDKCommon */,
+				6D53502F2D7AAA3800DBC24B /* RxKakaoSDKUser */,
 			);
 			productName = Buttwink;
 			productReference = 1D999D412CE0BADA004A4029 /* Buttwink.app */;
@@ -810,6 +842,7 @@
 				1DB5B7722D0AFEBA00E80768 /* XCRemoteSwiftPackageReference "sentry-cocoa" */,
 				78956D052D185CBD0074D80B /* XCRemoteSwiftPackageReference "Then" */,
 				BF88F4552D3F9F8E00B862F4 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+				6D5350282D7AAA3800DBC24B /* XCRemoteSwiftPackageReference "kakao-ios-sdk-rx" */,
 			);
 			productRefGroup = 1D999D422CE0BADA004A4029 /* Products */;
 			projectDirPath = "";
@@ -834,6 +867,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D999D512CE0BADC004A4029 /* Base in Resources */,
+				6D5350272D7A875D00DBC24B /* Image.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,6 +934,7 @@
 				BF88F4742D425E6A00B862F4 /* ShortsModel.swift in Sources */,
 				6DC5A6E92D700036002CF536 /* MyPageViewModel.swift in Sources */,
 				1D8067CC2D0077E1002456FD /* BaseResponse.swift in Sources */,
+				6D3BA07B2D7E84F0009DC52E /* ViewControllable.swift in Sources */,
 				1D7BB1F12CF5C5FC0023AC1C /* ShortsFeedViewController.swift in Sources */,
 				1D8067E02D008062002456FD /* CustomMoyaProvider.swift in Sources */,
 				1D999D452CE0BADA004A4029 /* AppDelegate.swift in Sources */,
@@ -908,6 +943,7 @@
 				1D2E8BDF2D2FE37D009F339D /* BookmarkNewsVM.swift in Sources */,
 				1DE7F1B92D2FF0BF00531A95 /* ItemBoxMainCVC.swift in Sources */,
 				6DC5A8702D768FD5002CF536 /* MyPageModel.swift in Sources */,
+				6D5350232D7A7F1400DBC24B /* SocialLoginViewController.swift in Sources */,
 				BF88F46C2D424FB700B862F4 /* Repository_Youtube.swift in Sources */,
 				1D8067C82D00751A002456FD /* Config.swift in Sources */,
 				1D2E8BDB2D2FE2BC009F339D /* BookmarkMainVC.swift in Sources */,
@@ -927,6 +963,7 @@
 				6DC5A6EC2D700043002CF536 /* ViewModelType.swift in Sources */,
 				1D8067D02D007829002456FD /* GeneralResponse.swift in Sources */,
 				1D999D472CE0BADA004A4029 /* SceneDelegate.swift in Sources */,
+				6D5350252D7A866300DBC24B /* ButtwinkTextField.swift in Sources */,
 				1DE1355D2CFB1FC600D9F469 /* HeaderView.swift in Sources */,
 				6D9C2D092D76BC6D00713AEA /* MyPageLectureCell.swift in Sources */,
 				1D2E8BE12D2FE389009F339D /* BookmarkPosingVM.swift in Sources */,
@@ -1275,6 +1312,14 @@
 				minimumVersion = 15.0.3;
 			};
 		};
+		6D5350282D7AAA3800DBC24B /* XCRemoteSwiftPackageReference "kakao-ios-sdk-rx" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk-rx";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.23.0;
+			};
+		};
 		78956D052D185CBD0074D80B /* XCRemoteSwiftPackageReference "Then" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then.git";
@@ -1348,6 +1393,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1DFB78F12D0085AF00534317 /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = Moya;
+		};
+		6D5350292D7AAA3800DBC24B /* RxKakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D5350282D7AAA3800DBC24B /* XCRemoteSwiftPackageReference "kakao-ios-sdk-rx" */;
+			productName = RxKakaoSDK;
+		};
+		6D53502B2D7AAA3800DBC24B /* RxKakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D5350282D7AAA3800DBC24B /* XCRemoteSwiftPackageReference "kakao-ios-sdk-rx" */;
+			productName = RxKakaoSDKAuth;
+		};
+		6D53502D2D7AAA3800DBC24B /* RxKakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D5350282D7AAA3800DBC24B /* XCRemoteSwiftPackageReference "kakao-ios-sdk-rx" */;
+			productName = RxKakaoSDKCommon;
+		};
+		6D53502F2D7AAA3800DBC24B /* RxKakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D5350282D7AAA3800DBC24B /* XCRemoteSwiftPackageReference "kakao-ios-sdk-rx" */;
+			productName = RxKakaoSDKUser;
 		};
 		78956D062D185CBD0074D80B /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
